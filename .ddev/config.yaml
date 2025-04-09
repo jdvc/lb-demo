@@ -1,7 +1,7 @@
 name: ddev-gitpod
 type: drupal10
 docroot: web
-php_version: "8.1"
+php_version: "8.2"
 webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
@@ -19,7 +19,7 @@ web_environment: []
 # Key features of ddev's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
-#   http://projectname.ddev.site and https://projectname.ddev.site
+#   http://p rojectname.ddev.site and https://projectname.ddev.site
 
 # type: <projecttype>  # drupal6/7/8, backdrop, typo3, wordpress, php
 
