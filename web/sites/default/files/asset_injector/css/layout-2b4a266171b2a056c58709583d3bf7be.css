@@ -1,0 +1,128 @@
+/* Layout Builder Fixes */
+.media-library-item__edit, .media-library-item__remove {position: relative; height: 40px;margin-bottom:30px;}
+
+/* transparent blocks in LB */ 
+.layout-builder-block {background: rgba(0,0,0,0);}
+
+
+/* link colors */
+a, a hover {color: #121c4d;}
+.dark a, a hover {color: #fff; margin-top: 10px; font-size: 24px;}
+.light a, a hover {color: #121c4d; margin-top: 10px; font-size: 18px;}
+
+/* tall banner */
+
+.tall-banner {height: 500px !important; display: flex; align-items: center; }
+.tall-banner h2 {color: #fff; text-align: center; line-height: 1.0em; font-size: 3.0em; text-shadow: 2px 2px 4px #000000;}
+.tall-banner h3 {color: #fff; text-align: center; font-size: 2.5em; }
+.tall-banner h4 {color: #fff; text-align:center; font-size: 2.0em;}
+
+/* banner */
+.block-inline-blocklarge-banner {text-align: center;}
+.block-inline-blocklarge-banner h2 {color: #fff; font-size: 4em; text-align:center; padding-top: 30px; line-height: 1.0em; text-shadow: 2px 2px 4px #000000; }
+.block-inline-blocklarge-banner p {color: #fff; font-size: 1.5em; text-align:center; line-height: 1.5em;}
+.block-inline-blocklarge-banner h4 {color: #fff; font-size: 2.0em; text-align:center; line-height: 1.0em;}
+.btn .btn-primary .btn-lg p { text-align:center; }
+.block-inline-blocklarge-banner { height: 420px;}
+
+.block-inline-blocklarge-banner-text-on-side  { padding-left: 15%; padding-right: 15%;}
+.block-inline-blocklarge-banner-text-on-side  h2 {color: #fff; font-size: 4em; text-align:left; padding-top: 80px; line-height: 1.0em; text-shadow: 2px 2px 4px #000000; }
+.block-inline-blocklarge-banner-text-on-side  p {color: #fff; font-size: 1.1em; text-align:left; line-height: 1.1em;}
+.block-inline-blocklarge-banner-text-on-side  h4 {color: #fff; font-size: 2.0em; text-align:left; line-height: 1.0em;}
+.block-inline-blocklarge-banner-text-on-side { height: 420px;}
+
+/* cards */
+ .block-inline-blockcard {border: 1px black solid;}
+.block-field-blockblock-contentcardfield-heading {color: #2B4D66; font-weight: 400; font-size: 1.2em; margin-top: 10px; padding-left: 1.5em; padding-right: 1.5em;}
+.block-field-blockblock-contentcardfield-heading {   
+	letter-spacing: .00125rem;
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+    padding-bottom: .75rem;
+    position: relative;
+    transition: color .25s ease-in-out;
+    transition-behavior: normal;
+    text-transform: uppercase;
+  }
+.block-field-blockblock-contentcardfield-heading::after {
+	   background-color: #d8d8d8;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: .125rem;
+    left: 1.6em;
+    position: absolute;
+    width: 2.9375rem;
+}
+.block-field-blockblock-contentcardbody {padding: 1.2em;}
+/*
+
+.block-inline-blockcard {border: 1px solid black;  padding: 20px; }
+.block-inline-blockcard a {color: #2B4D66; font-weight: bold;}
+.block-inline-blockcard  .block-title {
+    letter-spacing: .00125rem;
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+    padding-bottom: .75rem;
+    position: relative;
+    transition: color .25s ease-in-out;
+    transition-behavior: normal;
+  }
+ h2.block-title::after {
+    background-color: #d8d8d8;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: .125rem;
+    left: 0;
+    position: absolute;
+    width: 2.9375rem;
+  }
+*/
+.block-inline-blockcard:hover {
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+
+}
+
+.cards {height: 300px !important;}
+.cards p { font-size: 30px; text-align: center; line-height: 100px;}
+.cards h2 {font-size: 50px; text-align: center; line-height: 100px;}
+
+.field--name-field-number {font-family: "Bebas Neue", "Bebas Neue"; font-size: 48px; text-align: center; }
+.field--name-field-description {font-family: "Open Sans"; font-size: 30px; text-align: center; }
+
+/* big header */
+.big-header h2 {font-size: 70px; color:#fff; font-weight: bold;}
+
+.layout-builder__link--rearrange
+{
+margin-right:10px;
+}
+
+/* date in block view - latest posts */
+.views-field-field-publication-date {font-size: 0.8em; margin-left:10px; margin-top: -20px;}
+
+.ck-content {color: #000;}
+
+/* images in body */
+.field--name-field-media-image {padding: 10px;}
+
+
+
+/* removes margin for full image coverage on no gutter sections */
+.row > * {margin-bottom: 0;}
+.row>* {margin-bottom: 0;}
+
+/* adds 30px padding to sections when class selected */
+.verticalpadding {margin-top: 30px; margin-bottom: 30px;}
+
+/* dark overlay of backgrounds */
+.dark-overlay {background: rgba(0,0,0,0.4); }
+
+/* layout builder form margin fix */
+.node-landing-page-layout-builder-form {margin-left: 2.0em;}
+#block-dxpr-theme-local-tasks {margin-left: 2.0em;}
+#block-dxpr-theme-help {margin-left: 2.0em;}

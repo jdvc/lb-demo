@@ -1,0 +1,126 @@
+.primarybutton {font-weight: bold;}
+a.btn-primary {color: #fff; text-align:center;}
+a.btn-primary:hover {color: #fff;text-decoration: none;}
+a.btn-primary h3 {color: #fff; padding-top: 10px;}
+
+
+/*secondary */
+.secondarybutton {font-weight: bold;}
+a.btn-secondary {color: #fff; padding-top: 5px;}
+a.btn-secondary:hover {color: #fff; text-decoration: none;}
+a.btn-secondary h3 {color: #000; padding-top: 10px;}
+a.btn-secondary h3:hover {color: #fff;}
+.btn-secondary {background: #a8d6e7; border: #a8d6e7;}
+
+/*success */
+.successbutton {font-weight: bold;}
+a.btn-success {color: #fff;}
+a.btn-success:hover {color: #efefef; text-decoration: none;}
+a.btn-success h3 {color: #fff; padding-top: 10px;}
+a.btn-success h3:hover {color: #fff;}
+/*.btn-success {background: #a8d6e7; border: #a8d6e7;}*/
+
+/* warning */
+
+.warningbutton {font-weight: bold;}
+a.btn-warning {color: #fff;}
+a.btn-warning:hover {color: #000; text-decoration: none;}
+a.btn-warning h3 {color: #fff; padding-top: 10px;}
+a.btn-warning h3:hover {color: #000;}
+
+/* danger */
+.dangerbutton {font-weight: bold;}
+a.btn-danger {color: #fff;}
+a.btn-danger:hover {color: #fff; text-decoration: none; margin-top: 10px;}
+a.btn-danger h3 {color: #fff; padding-top: 10px;}
+a.btn-danger h3:hover {color: #fff;}
+.btn-danger {background: red; border: red;}
+
+
+/* info */
+
+.infobutton {font-weight: bold;}
+a.btn-info {color: #fff;}
+a.btn-info:hover {color: #000; text-decoration: none;}
+a.btn-info h3 {color: #fff; padding-top: 10px;}
+a.btn-info h3:hover {color: #000;}
+
+/* light */
+
+.lightbutton {font-weight: bold;}
+/*a.btn-light {color: #fff;}*/
+a.btn-light:hover {color: #000; text-decoration: none;}
+a.btn-light h3 {color: #000; padding-top: 10px;}
+/*a.btn-light h3:hover {color: #000;}*/
+
+/* dark */
+
+.darkbutton {font-weight: bold;}
+a.btn-dark {color: #fff;}
+a.btn-dark:hover {color: #fff; text-decoration: none;}
+a.btn-dark h3 {color: #fff; padding-top: 10px;}
+/*a.btn-light h3:dark {color: #000;}*/
+
+.outlinebtn {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 5px;
+}
+
+/* Green */
+.success {
+  border-color: #04AA6D;
+  color: green;
+}
+
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}

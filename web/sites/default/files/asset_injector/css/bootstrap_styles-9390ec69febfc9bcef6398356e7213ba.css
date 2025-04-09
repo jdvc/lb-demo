@@ -1,0 +1,74 @@
+/* CSS for layout colors */
+
+/* white background */
+.bs-bg-white {background-color: #ffffff !important;}
+.bs-bg-white {color: #121c4d; }
+.bs_input-circles .bs-text-white {background-color: #121c4d !important;}
+.bs-text-white .bs_tooltip {background-color: #121c4d !important;}
+
+/* light blue */
+.bs-bg-light-blue {background-color: #e6f0ff !important;}
+.bs-bg-light-blue {color: #121c4d;}
+
+/* dark blue */
+.bs-bg-dark-blue {background-color: #121c4d !important;}
+.bs-bg-dark-blue.field-content {color: #fff;margin-top: 5px;}
+.bs-bg-dark-blue .field-content {color: #fff; padding:10px;}
+
+/* orange */
+.bs-bg-orange {background-color: #F07D04 !important;}
+
+
+/* Black Text */
+.bs-text-black .bs_tooltip {background-color: #000 !important;}
+.bs-text-black h2 {color: #000;}
+.bs-text-black h3 {color: #000;}
+.bs-text-black h4 {color: #000;}
+.bs-text-black h5 {color: #000;}
+.bs-text-black h6 {color: #000;}
+.bs-text-black p {color: #000;}
+.bs-text-white {color: #000;}
+
+/* White Text */
+/*.bs-text-white {background-color: #ffffff !important;}*/
+.bs-text-white h2 {color: #ffffff;}
+.bs-text-white h3 {color: #fff;}
+.bs-text-white h4 {color: #fff;}
+.bs-text-white h5 {color: #fff;}
+.bs-text-white h6 {color: #fff;}
+.bs-text-white p {color: #fff;}
+.bs-text-white {color: #fff;}
+
+/* Dark Blue Text */
+.bs_input-circles .bs-text-dark-blue {background-color: #121c4d !important;}
+.bs-text-dark-blue .bs_tooltip {background-color: #121c4d !important;}
+.bs-text-dark-blue h2 {color: #121c4d;}
+.bs-text-dark-blue h3 {color: #121c4d;}
+.bs-text-dark-blue h4 {color: #121c4d;}
+.bs-text-dark-blue h5 {color: #121c4d;}
+.bs-text-dark-blue h6 {color: #121c4d;}
+.bs-text-dark-blue p {color: #121c4d;}
+.bs-text-dark-blue {color: #121c4d;}
+
+/* Orange Text */
+.bs_input-circles .bs-text-orange {background-color: #f07d04 !important;}
+.bs-text-orange .bs_tooltip {background-color: #f07d04 !important;}
+.bs-text-orange h2 {color: #f07d04;}
+.bs-text-orange h3 {color: #f07d04;}
+.bs-text-orange h4 {color: #f07d04;}
+.bs-text-orange h5 {color: #f07d04;}
+.bs-text-orange h6 {color: #f07d04;}
+.bs-text-orange p {color: #f07d04;}
+.bs-text-orange {color: #f07d04;}
+
+/* Light Blue Text */
+.bs_input-circles .bs-text-light-blue {background-color: #e6f0ff !important;}
+.bs-text-light-blue .bs_tooltip {background-color: #e6f0ff !important;}
+.bs-text-light-blue h2 {color: #e6f0ff;}
+.bs-text-light-blue h3 {color: #e6f0ff;}
+.bs-text-light-blue h4 {color: #e6f0ff;}
+.bs-text-light-blue h5 {color: #e6f0ff;}
+.bs-text-light-blue h6 {color: #e6f0ff;}
+.bs-text-light-blue p {color: #e6f0ff;}
+.bs-text-light-blue {color: #e6f0ff;}
+
